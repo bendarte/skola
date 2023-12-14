@@ -1,0 +1,19 @@
+{
+  "name": "moe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./sm.server.js",
+    "dev": "node --watch ./sm/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
